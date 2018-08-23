@@ -1,0 +1,13 @@
+{
+  "name": "safe-resolve-path",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [
+    "resolve",
+    "path",
+    "safe"
+  ],
+  "author": "SILENT",
+  "license": "MIT"
+}
