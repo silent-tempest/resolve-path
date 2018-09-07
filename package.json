@@ -1,13 +1,31 @@
 {
-  "name": "safe-resolve-path",
+  "name": "resolve-path",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "keywords": [
-    "resolve",
-    "path",
-    "safe"
-  ],
   "author": "SILENT",
-  "license": "MIT"
+  "license": "SEE LICENSE IN https://github.com/silent-tempest/resolve-path/blob/master/LICENSE",
+  "scripts": {
+    "test": "mocha -r chai/register-should",
+    "docs": "jsdoc -d docs index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silent-tempest/resolve-path.git"
+  },
+  "bugs": {
+    "url": "https://github.com/silent-tempest/resolve-path/issues"
+  },
+  "homepage": "https://github.com/silent-tempest/resolve-path#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "jsdoc": "^3.5.5",
+    "jshint": "^2.9.6",
+    "mocha": "^5.2.0"
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "dependencies": {},
+  "description": ""
 }
