@@ -1,12 +1,14 @@
 {
-  "name": "resolve-path",
+  "name": "resolve_path",
   "version": "1.0.0",
   "main": "index.js",
   "author": "SILENT",
-  "license": "SEE LICENSE IN https://github.com/silent-tempest/resolve-path/blob/master/LICENSE",
+  "license": "SEE LICENSE IN LICENSE",
   "scripts": {
-    "test": "mocha -r chai/register-should",
-    "docs": "jsdoc -d docs index.js"
+    "prepublish": "npm run lint && npm run test && npm run docs",
+    "test": "mocha -r chai/register-expect",
+    "docs": "jsdoc -d docs .",
+    "lint": "jshint ."
   },
   "repository": {
     "type": "git",
